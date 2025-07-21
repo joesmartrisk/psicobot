@@ -906,6 +906,7 @@ def main() -> None:
     application.add_handler(MessageHandler(filters.COMMAND, unknown))
 
     logger.info("Mentor comportamental de elite iniciado...")
+keep_alive()
     application.run_polling()
 
 if __name__ == "__main__":
