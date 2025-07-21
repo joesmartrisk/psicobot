@@ -1,0 +1,8 @@
+# Ignorar ficheiros de ambiente com chaves secretas
+.env
+
+# Ignorar a base de dados SQLite
+trader_bot.db
+
+# Ignorar pastas de cache do Python
+__pycache__/
